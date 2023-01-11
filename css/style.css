@@ -1,12 +1,8 @@
-:root {
-  --accent-color: #34547a;
-  --text-color: #727272;
-  --second-bg: #eeeff1;
-}
-
 /* reset */
 
-.list {
+ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -14,57 +10,47 @@
   text-decoration: none;
 }
 
+/* style */
+
 body {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.63;
-  color: var(--text-color);
+  background-color: #232323;
+}
+/* main html */
+
+header {
+  border-bottom: 1px solid #ffffff;
 }
 
-/* header */
+/* container */
 
-.logo {
-  font-family: "Revalia", cursive;
-  font-size: 48px;
-  line-height: 1.25;
-  color: var(--accent-color);
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/* nav-menu */
+
+.nav-menu {
+  display: flex;
 }
 
-/* nav */
-
-.nav-menu .link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  letter-spacing: 0.1em;
-  color: #000000;
+/* block html */
+.boxs {
+  max-width: 1040px;
+  border: 1px solid #ffffff;
 }
 
-.link.active {
-  color: var(--accent-color);
+.show {
+  display: inline-block;
+  padding: 12px 28px;
+
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border: 1px solid #ffffff;
 }
-/* main */
-
-/* hero */
-
-.hero {
-  background-color: var(--second-bg);
-}
-
-/* title */
-
-.title {
-  color: #000000;
-}
-
-.hero > .title {
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 1.65;
-}
-
-/* button */
-
-.hero .button{
-    color: #ffffff;
-    background-color: var(--accent-color);
+.show:focus {
+  border: 10px solid aqua;
+  outline: 1px solid coral;
 }
