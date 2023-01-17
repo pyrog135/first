@@ -13,25 +13,39 @@ ul {
 /* style */
 
 body {
-  background-color: #232323;
+  background-color: #000000;
+}
+/* images */
+.photo {
+  
+  margin-right: 124px;
 }
 /* main html */
 
 header {
+  padding: 30px 0;
   border-bottom: 1px solid #ffffff;
 }
 
 /* container */
 
 .container {
-  max-width: 1230px;
+  display:flex;
+  align-items: center;
+  max-width: 1296px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 /* nav-menu */
-
+.nav-menu-item {
+  color: #ffffff;
+}
 .nav-menu {
   display: flex;
+  gap: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #ffffff;
 }
 
 /* block html */
@@ -53,4 +67,17 @@ header {
 .show:focus {
   border: 10px solid aqua;
   outline: 1px solid coral;
+}
+
+.nav-menu-item .link{color: #ffffff;
+}
+
+.hero-btn{
+  padding: 35px 0px 40px 35px;
+  text-align: start;
+}
+
+.hero-btn span{
+  display: inline-block;
+  margin-bottom: 17px;
 }
