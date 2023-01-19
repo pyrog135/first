@@ -17,6 +17,10 @@ img{
   display:block;
 }
 
+main {
+  background-color: #ffffff;
+}
+
 /* style */
 
 html{
@@ -45,8 +49,6 @@ header {
 /* container */
 
 .container {
-  display:flex;
-  align-items: center;
   max-width: 1296px;
   margin: 0 auto;
 }
@@ -143,42 +145,43 @@ header {
 
 .btn {
   display: flex;
-  border: solid #8D86C9 1px;
   max-width: 1296px;
   gap: 12px;
 }
 
 .pbutton {
-  font-family: 'Gilroy';
   font-weight: 600;
   font-size: 18px;
-  line-height: 1,4;
-  padding-left: 35px;
-  padding-top: 35px;
-  padding-bottom: 17px;
 }
 
 .spanbtn {
-  font-family: 'Gilroy';
   font-weight: 700;
   font-size: 24px;
   line-height: 1,4;
-  padding-left: 35px;
-  padding-bottom: 40px;
-  padding-right: 120px;
+  display: block;
+  margin-top: 17px;
 }
 
 .litem {
-  max-width: 315px;
+  
 }
 
-.ludi {
-  max-width: 1296px;
+.butorin{
+  background-color: #8D86C9;
+  width: 315px;
+  padding-left: 35px;
+  padding-bottom: 40px;
+  padding-top: 35px;
+  padding-right: 0;
+  border: none;
+  color: white;
+  text-align: left;
+  line-height: 1,4;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .team {
-  color: #ffffff;
-  font-family: 'Gilroy';
   font-weight: 700;
   font-size: 36px;
   line-height: 1,4;
@@ -192,10 +195,39 @@ header {
 }
 
 .items {
-  border: solid #F7ECE1 1px;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-top: 75px;
   box-sizing: border-box;
   display: block;
+}
+
+.head {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.4;
+}
+
+.pe {
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.4;
+}
+
+.rectangle {
+  border: solid #F7ECE1 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*uslugi*/
+
+.uslugi {
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.li+ .li{
+  margin-top: 31px;
 }
