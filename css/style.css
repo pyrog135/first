@@ -230,4 +230,23 @@ line-height: 1.4;
 
 .li+ .li{
   margin-top: 31px;
+
+}
+
+.price{
+  width: 526px;
+  
+}
+
+.bash {
+  border: none;
+  background-color: #8D86C9;
+  color: #ffffff;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.4;
+
 }
