@@ -134,3 +134,31 @@ header {
   padding-top: 200px;
   padding-bottom: 342px;
 }
+
+.ludi {
+  max-width: 1296px;
+}
+
+.team {
+  color: #ffffff;
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1,4;
+  padding-bottom: 75px;
+}
+
+.list {
+  display: flex;
+  gap: 24px;
+  max-width: 1296px;
+}
+
+.items {
+  border: solid #F7ECE1 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 75px;
+  box-sizing: border-box;
+  display: block;
+}
