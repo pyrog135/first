@@ -128,11 +128,48 @@ header {
   font-weight: 700;
   font-size: 48px;
   line-height: 1,4;
-}
-
-.hero {
   padding-top: 200px;
   padding-bottom: 342px;
+}
+
+/*.hero {
+  padding-top: 200px;
+  padding-bottom: 342px;
+}*/
+
+.hero .container {
+  display: block;
+}
+
+.btn {
+  display: flex;
+  border: solid #8D86C9 1px;
+  max-width: 1296px;
+  gap: 12px;
+}
+
+.pbutton {
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1,4;
+  padding-left: 35px;
+  padding-top: 35px;
+  padding-bottom: 17px;
+}
+
+.spanbtn {
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1,4;
+  padding-left: 35px;
+  padding-bottom: 40px;
+  padding-right: 120px;
+}
+
+.litem {
+  max-width: 315px;
 }
 
 .ludi {
