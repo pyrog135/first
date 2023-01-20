@@ -13,6 +13,12 @@ ul {
 .link {
   text-decoration: none;
 }
+
+.footer-link {
+  text-decoration: none;
+  color: #000000;
+}
+
 img{
   display:block;
 }
@@ -31,13 +37,14 @@ html *, ::after, ::before{
   box-sizing: inherit;
 }
 
-body {
+header {
   background-color: #000000;
 }
-/* header */
-.photo {
-  margin-right: 124px;
+
+footer {
+  background-color: #F7ECE1;
 }
+
 /* main html */
 
 header {
@@ -283,9 +290,15 @@ line-height: 1.4;
   opacity: 0.3;
   padding: 38px 0px;
   margin-right: 104px;
-  color: #ffffff;
+  color: #333333;
 }
 
-.navigation {
-  padding: 38px 0px;
+.footer-nav-menu {
+  display: flex;
+  gap: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  padding-top: 38px;
 }
+
