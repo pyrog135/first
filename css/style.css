@@ -158,7 +158,7 @@ header {
 }
 
 .text{
-  color: black;
+  color: #ffffff;
   max-width: 636px;
   font-family: 'Gilroy';
   font-style: normal;
@@ -278,14 +278,29 @@ line-height: 1.4;
   display: block;
 }
 
-.coffeimg {
+.coffe-container {
+  margin-top: 75px;
+}
+
+.coffe-image {
+  background-image: url(/images/coffe.jpg.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   display: block;
   width: 586px;
   height: 270px;
-  border: solid black;
+  border: solid black 1px;
+  padding: 30px 25px;
+}
+
+/*.coffeimg {
+  display: block;
+  width: 586px;
+  height: 270px;
+  border: solid black 1px;
   padding: 30px 25px;
   margin-top: 75px;
-}
+}*/
 
 .bash {
   border: none;
