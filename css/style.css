@@ -16,7 +16,7 @@ ul {
 
 .footer-link {
   text-decoration: none;
-  color: #000000;
+  color: #333333;
 }
 
 img{
@@ -65,6 +65,15 @@ header {
 .photo {
   margin-right: 124px;
 }
+
+.header-container {
+  max-width: 1296px;
+  margin: 0 auto;
+  display: flex;
+}
+
+
+
 /* header nav-menu */
 .nav-menu-item {
   color: black;
@@ -76,7 +85,7 @@ header {
   font-size: 14px;
   line-height: 1.4;
   color: #333333;
-  padding-top: 13px;
+  padding-top: 15px;
 }
 
 /* block html */
@@ -137,6 +146,12 @@ header {
 }
 
 /*hero */
+
+.hero {
+  background-image: url(/images/fon.jpg.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
 
 .hero .container {
   display: block;
@@ -259,12 +274,17 @@ line-height: 1.4;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.4;
+  max-height: 50px;
+  display: block;
 }
 
 .coffeimg {
   display: block;
-  max-width: 586px;
-  max-height: 270px;
+  width: 586px;
+  height: 270px;
+  border: solid black;
+  padding: 30px 25px;
+  margin-top: 75px;
 }
 
 .bash {
@@ -277,8 +297,9 @@ line-height: 1.4;
   font-weight: 600;
   font-size: 21px;
   line-height: 1.4;
-
 }
+
+
 
 /*footer*/
 
