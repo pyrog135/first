@@ -45,6 +45,10 @@ footer {
   background-color: #F7ECE1;
 }
 
+body {
+  font-family: 'Gilroy';
+}
+
 /* main html */
 
 header {
@@ -70,6 +74,7 @@ header {
   max-width: 1296px;
   margin: 0 auto;
   display: flex;
+  align-items: center;
 }
 
 
@@ -85,7 +90,6 @@ header {
   font-size: 14px;
   line-height: 1.4;
   color: #333333;
-  padding-top: 15px;
 }
 
 /* block html */
@@ -211,6 +215,7 @@ header {
   font-size: 36px;
   line-height: 1,4;
   padding-bottom: 75px;
+  font-family: 'Gilroy';
 }
 
 .containertim {
@@ -261,7 +266,6 @@ line-height: 1.4;
 
 .li+ .li{
   margin-top: 31px;
-
 }
 
 .price{
@@ -276,10 +280,13 @@ line-height: 1.4;
   line-height: 1.4;
   max-height: 50px;
   display: block;
+  font-family: 'Gilroy';
 }
 
 .coffe-container {
   margin-top: 75px;
+  border: solid #F7ECE1 1px;
+  padding: 30px 25px;
 }
 
 .coffe-image {
@@ -289,8 +296,17 @@ line-height: 1.4;
   display: block;
   width: 586px;
   height: 270px;
-  border: solid black 1px;
-  padding: 30px 25px;
+}
+
+.cafe {
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 1.4;
+  color: #ffffff;
+  padding-left: 40px;
+  padding-top: 202px;
+  padding-bottom: 30px;
+  font-family: 'Gilroy';
 }
 
 /*.coffeimg {
@@ -313,8 +329,6 @@ line-height: 1.4;
   font-size: 21px;
   line-height: 1.4;
 }
-
-
 
 /*footer*/
 
