@@ -209,14 +209,12 @@ header {
 .team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1,4;
-  padding-bottom: 75px;
+  line-height: 1.4;
+  margin-bottom: 75px;
   font-family: 'Gilroy';
 }
 
-.containertim {
-  max-width: 1296px;
-  margin: 0 auto;
+.ludi .container{
   display: block;
 }
 
@@ -227,7 +225,6 @@ header {
 }
 
 .items {
-  margin-top: 75px;
   box-sizing: border-box;
   display: block;
 }
