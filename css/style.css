@@ -41,9 +41,7 @@ html *, ::after, ::before{
   box-sizing: inherit;
 }
 
-header {
-  background-color: #000000;
-}
+
 
 footer {
   background-color: #F7ECE1;
@@ -79,6 +77,22 @@ header {
   margin-right: 124px;
 }
 
+.icon{
+  position: absolute;
+  transform: translate(-200%, -50%);
+  transition: transform 0.5s;
+  top: 50%;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-color: grey;
+}
+
+.nav-menu-item:hover .icon{
+  transform: translate(200%,-200%);
+}
+
+
 .header-container {
   max-width: 1296px;
   margin: 0 auto;
@@ -91,6 +105,7 @@ header {
 /* header nav-menu */
 .nav-menu-item {
   color: black;
+  position: relative;
 }
 .nav-menu {
   display: flex;
@@ -159,7 +174,8 @@ header {
 .hero {
   background-image: url(/images/fon.jpg);
   background-repeat: no-repeat;
-  background-position: 50% 100%;
+  background-position: 50% 50%;
+  
 }
 
 .hero .container {
