@@ -169,6 +169,65 @@ header {
   border: 1px solid #F7ECE1;
 }
 
+/*man*/
+
+.container-man{
+  margin-bottom: 150px;
+  max-width: 1296px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bcgr{
+  max-width: 636px;
+  background-color: #F7ECE1;;
+  height: 654px;
+  color: #333333;
+}
+
+.man-img{
+  width: 526px;
+  height: 514px;
+  margin-top: 70px;
+  position: absolute;
+  left: 25%;
+}
+
+.mersedes-benz{
+  margin: 70px 60px 25px 146px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.4;
+}
+
+.man-p{
+  margin-left: 146px;
+  margin-right: 60px;
+  margin-bottom: 35px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.man-h4{
+  margin: 0px 60px 25px 146px;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.4;
+}
+
+.man-ul{
+  margin: 0px 60px 84px 145px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.man-li+ .man-li{
+  margin-top: 23px;
+}
+
 /*hero */
 
 .hero {
@@ -338,6 +397,7 @@ line-height: 1.4;
   height: 45px;
   background-color: #8D86C9;
   border: none;
+  cursor: pointer;
 }
 
 .bash {
