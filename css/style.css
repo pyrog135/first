@@ -250,21 +250,21 @@ header {
 
 /*hero */
 
-.news{
+.title{
   color: #ffffff;
   font-style: normal;
   display: inline-block;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.4;
 }
 
 .block-hero{
-  background-image: url(../images/block-fon.jpg);
+  background-image: url('../images/block-fon.jpg');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   padding-top: 136px;
   padding-bottom: 60px;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 1.4;
   text-align: center;
 }
 
@@ -319,6 +319,67 @@ header {
   font-weight: 600;
   font-size: 18px;
   cursor: pointer;
+}
+
+/*news*/
+
+.news-container{
+  display: flex;
+  max-width: 1296px;
+  margin: 0 auto;
+  position: relative;
+  align-items: center;
+  padding-top: 80px;
+  gap: 24px;
+}
+
+.news-container2{
+  display: flex;
+  max-width: 1296px;
+  margin: 0 auto;
+  position: relative;
+  align-items: center;
+  gap: 24px;
+  padding-top: 24px;
+  padding-bottom: 120px;
+}
+
+.news-button{
+  width: 137px;
+  height: 45px;
+  background-color: #8D86C9;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.news-container{
+  display: flex;
+}
+
+.news-h4{
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.data{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333333;
+  opacity: 0.5;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.cards{
+  max-width: 416px;
+  margin: 0;
+  padding: 30px 40px;
+  border: 1px solid #F7ECE1;
 }
 
 /*team*/
