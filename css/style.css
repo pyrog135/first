@@ -53,16 +53,6 @@ body {
 
 /* main html */
 
-header {
-  border-bottom: 1px solid #ffffff;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
 /* container */
 
 .container {
@@ -73,6 +63,26 @@ header {
 }
 
 /* header */
+
+.block-header{
+  border-bottom: 1px solid #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header {
+  border-bottom: 1px solid #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 
 .photo {
   margin-right: 124px;
@@ -239,6 +249,24 @@ header {
 }
 
 /*hero */
+
+.news{
+  color: #ffffff;
+  font-style: normal;
+  display: inline-block;
+}
+
+.block-hero{
+  background-image: url(../images/block-fon.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding-top: 136px;
+  padding-bottom: 60px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.4;
+  text-align: center;
+}
 
 .hero {
   background-image: url(../images/fon.jpg);
