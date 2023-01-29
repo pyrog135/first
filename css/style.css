@@ -250,6 +250,15 @@ header {
 
 /*hero */
 
+.treugolnik{
+  width: 20px;
+  height: 16px;
+}
+
+.svg-button{
+
+}
+
 .title{
   color: #ffffff;
   font-style: normal;
@@ -286,7 +295,6 @@ header {
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
-  line-height: 1.4;
   margin-bottom: 342px;
 }
 
