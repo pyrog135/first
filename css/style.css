@@ -261,8 +261,12 @@ header {
   margin-bottom: 25px;
 }
 
-.man-li{
+.man-ul{
   position: relative;
+}
+
+.man-li{
+  
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 400;
@@ -270,7 +274,7 @@ header {
   line-height: 1.4;
 }
 
-.benz::before{
+.man-li::before{
   transform: translateX(-100%);
   position: absolute;
   top: 8px;
