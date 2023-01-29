@@ -525,8 +525,23 @@ line-height: 1.4;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
+  position: relative;
 }
 
 .footer-link:hover{
   text-decoration: underline;
+}
+
+.scamer{
+  margin-left: 107px;
+  width: 36px;
+  height: 36px;
+}
+
+.footer-use{
+  fill:#8D86C9;
+}
+
+.footer-use:hover{
+  fill: red;
 }
