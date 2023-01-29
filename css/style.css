@@ -526,6 +526,7 @@ line-height: 1.4;
   font-size: 14px;
   line-height: 1.4;
   position: relative;
+  margin-right: 107px;
 }
 
 .footer-link:hover{
@@ -533,7 +534,6 @@ line-height: 1.4;
 }
 
 .scamer{
-  margin-left: 107px;
   width: 36px;
   height: 36px;
 }
@@ -542,3 +542,28 @@ line-height: 1.4;
   fill:#8D86C9;
 }
 
+.footer-ul{
+  display: flex;
+  gap: 30px;
+}
+
+.footer-li{
+  cursor: pointer;
+}
+
+.header-li{
+  cursor: pointer;
+}
+
+.nav-menu{
+  margin-right: 185px;
+}
+
+.header-ul{
+  display: flex;
+  gap: 35px;
+}
+
+.header-use{
+  fill:#ffffff;
+}
