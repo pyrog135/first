@@ -274,7 +274,7 @@ header {
   line-height: 1.4;
 }
 
-.man-li::before{
+/*.man-li::before{
   transform: translateX(-100%);
   position: absolute;
   top: 8px;
@@ -282,7 +282,7 @@ header {
   width: 8px;
   height: 8px;
   background-color: #8D86C9;
-}
+}*/
 
 .man-li+ .man-li{
   margin-top: 21px;
@@ -380,6 +380,7 @@ header {
   padding-top: 80px;
   gap: 24px;
   padding-bottom: 120px;
+  flex-wrap: wrap;
 }
 
 .news-button{
