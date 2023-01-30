@@ -376,20 +376,9 @@ header {
   display: flex;
   max-width: 1296px;
   margin: 0 auto;
-  position: relative;
   align-items: center;
   padding-top: 80px;
   gap: 24px;
-}
-
-.news-container2{
-  display: flex;
-  max-width: 1296px;
-  margin: 0 auto;
-  position: relative;
-  align-items: center;
-  gap: 24px;
-  padding-top: 24px;
   padding-bottom: 120px;
 }
 
@@ -403,10 +392,6 @@ header {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.4;
-}
-
-.news-container{
-  display: flex;
 }
 
 .news-h4{
@@ -546,6 +531,9 @@ line-height: 1.4;
   font-weight: 600;
   font-size: 21px;
   line-height: 1.4;
+  text-align: left;
+  padding-left: 30px;
+  position: relative;
 }
 
 /*footer*/
@@ -650,4 +638,41 @@ polygon::before{
   width: 20px;
   height: 20px;
 }
+
+.arrow-svg{
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  fill: #ffffff;
+  margin: 7px;
+}
+
+.ludi-btn {
+  display: flex;
+  width: 45px;
+  height: 45px;
+  background-color: #8D86C9;
+  border: none;
+  cursor: pointer;
+}
+
+.ludi-ul{
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  gap: 15px;
+}
+
+.uslugi-arrow-svg{
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  fill: #ffffff;
+  right: 30px;
+}
+
+
+
+
 
