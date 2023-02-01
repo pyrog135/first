@@ -632,7 +632,7 @@ line-height: 1.4;
   background-color: #8D86C9;
 }
 
-polygon::before{
+.polygon::before{
   content: '';
   position: absolute;
   top: -8px;
