@@ -274,7 +274,7 @@ header {
   line-height: 1.4;
 }
 
-.benz::before{
+.chundra-chuchundra::before{
   transform: translateX(-100%);
   position: absolute;
   top: 8px;
@@ -404,6 +404,9 @@ header {
 .news-h4{
   margin-top: 15px;
   margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.4;
 }
 
 .data{
@@ -775,4 +778,138 @@ line-height: 1.4;
   font-size: 18px;
   line-height: 1.4;
   cursor: pointer;
+}
+
+.about-bcgr{
+  position: relative;
+  padding: 70px 60px 93px 146px;
+  max-width: 856px;
+  margin-left: 836px;
+  margin-right: auto;
+  background-color: #F7ECE1;
+}
+
+.chundra-chuchundra{
+  position: relative;
+}
+
+.man-p+ .man-p{
+  margin-top: 10px;
+}
+
+.man-p+ .man-p+ .man-p{
+  margin-top: 22px;
+  margin-bottom: 65px;
+}
+
+.number1{
+  width: 29px;
+  height: 45px;
+  margin-right: 17.3px;
+}
+
+.number2{
+  width: 35px;
+  height: 45px;
+}
+
+.number3{
+  width: 32px;
+  height: 46px;
+}
+
+.about-use1{
+  width: 29px;
+  height: 45px;
+}
+
+.about-use1{
+  width: 35px;
+  height: 45px;
+}
+
+.about-use1{
+  width: 32px;
+  height: 46px;
+}
+
+.numbers{
+  display: flex;
+  gap: 36px;
+}
+
+.about-h4{
+  display: inline-block;
+}
+
+.about-li{
+  max-width: 234px;
+  display: flex;
+}
+
+.about-man{
+  padding-bottom: 120px;
+}
+
+.rules{
+  max-width: 1296px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.rules .news-h4{
+  margin: 0;
+}
+
+.rules-ul{
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  max-width: 315px;
+}
+
+.rules-li{
+  padding-left: 30px;
+  color: #8D86C9;
+}
+
+.rules-divchik{
+  max-width: 366px;
+  margin-right: 76px;
+}
+
+.time{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 33px;
+}
+
+.rules-div{
+  flex-direction: column;
+  display: flex;
+}
+
+.ul-p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  position: relative;
+}
+
+.div-ul{
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.ul-p::before{
+  content: '';
+  width: 15px;
+  height: 3px;
+  border: none;
+  background-color: #8D86C9;
+  position: absolute;
+  transform: translateX(-100%);
 }
