@@ -630,6 +630,7 @@ line-height: 1.4;
   border-radius: 50%;
   border: transparent;
   background-color: #8D86C9;
+  cursor: pointer;
 }
 
 .polygon::before{
@@ -726,3 +727,52 @@ line-height: 1.4;
   margin-right: 124px;
 }
 
+.club-hero{
+  background-image: url('../images/club-fon.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding-top: 136px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.cort{
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.cort .team{
+  margin-bottom: 60px;
+}
+
+.bcgr-cort {
+  border: solid #F7ECE1 1px;
+  padding: 25px 20px;
+  max-width: 1296px;
+  max-height: 500px;
+  margin: 0 auto;
+}
+
+.in-bcgr-cort {
+  background-image: url(../images/cort-bcgr.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: block;
+  width: 1256px;
+  height: 450px;
+  position: relative;
+}
+
+.cort-btn{
+  background-color: #8D86C9;
+  position: absolute;
+  border: none;
+  bottom: 40px;
+  left: 50px;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4;
+  cursor: pointer;
+}
