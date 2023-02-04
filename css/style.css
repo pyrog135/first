@@ -45,6 +45,7 @@ html *, ::after, ::before{
 
 footer {
   background-color: #F7ECE1;
+  padding: 38px 0;
 }
 
 body {
@@ -400,6 +401,9 @@ header {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.4;
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
 }
 
 .news-h4{
@@ -425,6 +429,9 @@ header {
   margin: 0;
   padding: 30px 40px;
   border: 1px solid #F7ECE1;
+  width: 416px;
+  height: 512px;
+  position: relative;
 }
 
 /*team*/
@@ -554,7 +561,6 @@ line-height: 1.4;
   font-size: 14px;
   line-height: 1.4;
   opacity: 0.3;
-  padding: 38px 0px;
   margin-right: 104px;
   color: #333333;
 }
@@ -584,6 +590,7 @@ line-height: 1.4;
 .scamer{
   width: 36px;
   height: 36px;
+  display: block;
 }
 
 .footer-use{
@@ -836,13 +843,15 @@ line-height: 1.4;
 
 .numbers{
   display: flex;
-  gap: 36px;
   padding-left: 46px;
 }
 
 .about-li{
   max-width: 234px;
   display: flex;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.4;
 }
 
 .about-man{
@@ -938,10 +947,10 @@ line-height: 1.4;
   content: '';
   border: none;
   position: absolute;
-  transform: translateX(-100%);
+  transform: translateX(-150%);
   background-image: url(../images/7.svg);
-  width: 40px;
-  height: 40px;
+  width: 29px;
+  height: 45px;
   background-repeat: no-repeat;
 }
 
@@ -949,9 +958,9 @@ line-height: 1.4;
   content: '';
   border: none;
   position: absolute;
-  transform: translateX(-100%);
+  transform: translateX(-125%);
   background-image: url(../images/4.svg);
-  width: 40px;
+  width: 35px;
   height: 45px;
   background-repeat: no-repeat;
 }
@@ -960,13 +969,50 @@ line-height: 1.4;
   content: '';
   border: none;
   position: absolute;
-  transform: translateX(-100%);
+  transform: translateX(-150%);
   background-image: url(../images/3.svg);
-  width: 40px;
-  height: 45px;
+  width: 32px;
+  height: 46px;
   background-repeat: no-repeat;
 }
 
 .about-h4-7{
+  max-height: 40px;
+  width: 124px;
+}
+
+.ludi-container{
   position: relative;
+}
+
+.a-svg{
+  display: block;
+}
+
+.about-h4-4{
+  max-height: 40px;
+  width: 182px;
+}
+
+.about-h4-3{
+  max-height: 40px;
+  width: 124px;
+}
+
+.about-li-7{
+  max-width: 234px;
+  display: flex;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-right: 85px;
+}
+
+.about-li-4{
+  max-width: 234px;
+  display: flex;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-right: 88px;
 }
