@@ -19,10 +19,11 @@
     />
   </head>
   <body>
-    <button class="module-open" type="button">open</button>
-    <div class="background-module">
+    <button class="module-open" type="button" data-modal-open>open</button>
+    <div class="background-module is-hidden" data-modal>
       <div class="module">
-        <p class="modal-title">Exotic hub</p>
+        <button class="button-close" data-modal-close>x</button>
+        <img class="exotic-hub" src="./images/exotic.jpg" alt="" width="236px" height="90px">
         <p class="modal-title-form">Create An Account</p>
         <form action="">
           <div class="input-div">
@@ -74,5 +75,7 @@
           </button>
       </div>
     </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
