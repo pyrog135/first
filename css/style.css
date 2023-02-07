@@ -220,9 +220,10 @@ header {
   position: relative;
   padding: 70px 60px 84px 145px;
   max-width: 636px;
-  margin-left: 836px;
   margin-right: auto;
   background-color: #F7ECE1;
+  right: -50%;
+  transform: translate(-20%, 10px);
 }
 
 .Condimentum{
@@ -385,10 +386,13 @@ header {
   max-width: 1296px;
   margin: 0 auto;
   align-items: center;
-  padding-top: 80px;
   gap: 24px;
-  padding-bottom: 120px;
   flex-wrap: wrap;
+}
+
+.news{
+  padding-top: 80px;
+  padding-bottom: 120px;
 }
 
 .news-button{
@@ -497,7 +501,6 @@ line-height: 1.4;
 }
 
 .coffe-container {
-  margin-top: 75px;
   border: solid #F7ECE1 1px;
   padding: 30px 25px;
 }
@@ -580,6 +583,9 @@ line-height: 1.4;
   font-size: 14px;
   line-height: 1.4;
   position: relative;
+}
+
+.footer-navigation{
   margin-right: 107px;
 }
 
@@ -599,7 +605,7 @@ line-height: 1.4;
 
 .footer-ul{
   display: flex;
-  gap: 30px;
+  gap: 19px;
 }
 
 .footer-li{
@@ -610,7 +616,7 @@ line-height: 1.4;
   cursor: pointer;
 }
 
-.nav-menu{
+.nav{
   margin-right: 185px;
 }
 
@@ -682,7 +688,6 @@ line-height: 1.4;
   height: 31px;
   position: absolute;
   fill: #ffffff;
-  margin: 7px;
 }
 
 .ludi-btn {
@@ -692,6 +697,7 @@ line-height: 1.4;
   background-color: #8D86C9;
   border: none;
   cursor: pointer;
+  padding: 7px;
 }
 
 .ludi-ul{
@@ -792,9 +798,9 @@ line-height: 1.4;
   position: relative;
   padding: 70px 60px 93px 146px;
   max-width: 856px;
-  margin-left: 836px;
-  margin-right: auto;
   background-color: #F7ECE1;
+  right: -50%;
+  transform: translate(-20%, 0);
 }
 
 .chundra-chuchundra{
@@ -875,6 +881,10 @@ line-height: 1.4;
   max-width: 315px;
 }
 
+.big-li{
+  margin-bottom: 40px;
+}
+
 .rules-li{
   padding-left: 30px;
   color: #8D86C9;
@@ -909,7 +919,6 @@ line-height: 1.4;
   display: flex;
   flex-direction: column;
   padding-left: 30px;
-  margin-bottom: 40px;
 }
 
 .ul-p::before{
@@ -1040,6 +1049,7 @@ line-height: 1.4;
   text-align: center;
   background-color: #ffffff; 
   font-family: 'Calibri', sens-serif;
+  position: relative;
 }
 
 .modal-title{
@@ -1201,4 +1211,40 @@ line-height: 1.4;
 .circle-btn+ .circle-btn{
   padding: 17.2px 17.8px;
   margin-left: 41.1px;
+}
+
+.exotic-hub{
+  margin-left: 38px;
+  margin-right: 49px;
+  z-index: -1;
+  position: relative;
+  color: linear-gradient(180deg, #F4E38B 0%, rgba(244, 227, 137, 0) 205px),linear-gradient(180deg, rgba(251, 251, 252, 0) calc(100% - 89px), #F4E38B);;
+  background: linear-gradient(180deg, #F4E38B 0%, rgba(244, 227, 137, 0) 205px),linear-gradient(180deg, rgba(251, 251, 252, 0) calc(100% - 89px), #F4E38B);
+}
+
+.button-close{
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  width: 30px;
+  height: 30px;
+
+  background-color: #7140EB;
+  border-radius: 50%;
+  border: transparent;
+  cursor: pointer;
+}
+
+.is-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
