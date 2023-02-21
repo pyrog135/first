@@ -12,6 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
@@ -34,7 +35,7 @@
               <div class="icon"></div>
             </li>
             <li class="nav-menu-item">
-              <a href="module.html" class="link">Услуги</a>
+              <a href class="link" >Услуги</a>
               <div class="icon"></div>
             </li>
             <li class="nav-menu-item">
@@ -74,14 +75,14 @@
           </div>
           <ul class="btn">
             <li class="litem">
-              <button class="butorin" type="button">
+              <button class="butorin" type="button" data-modal-open>
                 <p class="pbutton">Услуги</p>
                 <span class="spanbtn">Аренда корта</span>
                 <svg class="vector-svg"><use class="vector-use" href="./images/vector.svg#vector"></use></svg>
               </button>
             </li>
             <li class="litem">
-              <button class="butorin" type="button">
+              <button class="butorin" type="button" >
                 <p class="pbutton">Услуги</p>
                 <span class="spanbtn">Детский теннис</span>
                 <svg class="vector-svg"><use class="vector-use" href="./images/vector.svg#vector"></use></svg>
@@ -168,11 +169,12 @@
                       <div class="ludi-container">
                       <h2 class="team">Тренерский состав</h2>
                       <ul class="ludi-ul">
-                        <li class="ludi-li"><button class="ludi-btn"><svg class="arrow-svg"><use class="arrow-use" href="./images/arrow2.svg#arrow2"></use></svg></button></li>
-                        <li class="ludi-li"><button class="ludi-btn"><svg class="arrow-svg"><use class="arrow-use" href="./images/arrow1.svg#arrow1"></use></svg></button></li>
+                        <li class="ludi-li"><button class="ludi-btn swiper-button-prev" type="button"><svg class="arrow-svg"><use class="arrow-use" href="./images/arrow2.svg#arrow2"></use></svg></button></li>
+                        <li class="ludi-li"><button class="ludi-btn swiper-button-next" type="button"><svg class="arrow-svg"><use class="arrow-use" href="./images/arrow1.svg#arrow1"></use></svg></button></li>
                       </ul>
-                      <ul class="list">
-                        <li class="items">
+                      <div class="swiper">
+                      <ul class="list swiper-wrapper">
+                        <li class="items swiper-slide">
                           <div class="rectangle">
                             <img class="img" src="./images/people1.jpg" width="164px" height="238px" />
                           </div>
@@ -181,7 +183,7 @@
                             Arcu elit massa amet turpis vel consequat pellentesque sit.
                           </p>
                         </li>
-                        <li class="items">
+                        <li class="items swiper-slide">
                           <div class="rectangle">
                             <img class="img" src="./images/people2.jpg" width="164px" height="238px" />
                           </div>
@@ -191,7 +193,7 @@
                             lorem morbi quis.
                           </p>
                         </li>
-                        <li class="items">
+                        <li class="items swiper-slide">
                           <div class="rectangle">
                             <img class="img" src="./images/people3.jpg" width="164px" height="238px" />
                           </div>
@@ -200,7 +202,7 @@
                             Id sapien sed nibh fermentum massa posuere ipsum. Diam in.
                           </p>
                         </li>
-                        <li class="items">
+                        <li class="items swiper-slide">
                           <div class="rectangle">
                             <img class="img" src="./images/people4.jpg" width="164px" height="238px" />
                           </div>
@@ -210,7 +212,7 @@
                             morbi sit auctor vel diam eros.
                           </p>
                         </li>
-                        <li class="items">
+                        <li class="items swiper-slide">
                           <div class="rectangle">
                             <img class="img" src="./images/people5.jpg" width="164px" height="238px" />
                           </div>
@@ -220,7 +222,7 @@
                             venenatis faucibus.
                           </p>
                         </li>
-                        <li class="items">
+                        <li class="items swiper-slide">
                           <div class="rectangle">
                             <img class="img" src="./images/people6.jpg" width="164px" height="238px" />
                           </div>
@@ -230,6 +232,7 @@
                           </p>
                         </li>
                       </ul>
+                    </div>
                     </div>
                     </div>
                   </section>
@@ -302,6 +305,62 @@
                     <li class="footer-li"><a class="a-svg" href="https://desktop.telegram.org/?setln=ru"><svg class="scamer"><use class="footer-use" href="./images/telegram.svg#icon4"></use></svg></a></li>
                   </ul>
                 </footer>
-                <script src="../js/module.html"></script>
+                <div class="background-module is-hidden" data-modal>
+                  <div class="module">
+                    <button class="button-close" data-modal-close>x</button>
+                    <img class="exotic-hub" src="./images/exotic.jpg" alt="" width="236px" height="90px">
+                    <p class="modal-title-form">Create An Account</p>
+                    <form action="">
+                      <div class="input-div">
+                        <input class="input" placeholder="Full Name" type="text" />
+                        <svg class="input-svg">
+                          <use class="input-use" href="./images/person.svg#person"></use>
+                          <use class="input-use" href="./images/person.svg#person2"></use>
+                        </svg>
+                        <svg class="input-svg2">
+                          <use class="input-use" href="./images/bin.svg#bin1"></use>
+                          <use class="input-use" href="./images/bin.svg#bin2"></use>
+                        </svg>
+                      </div>
+                      <div class="input-div">
+                        <input class="input" placeholder="Email" type="email" />
+                        <svg class="input-svg3">
+                          <use class="input-use" href="./images/email.svg#email1"></use>
+                          <use class="input-use" href="./images/email.svg#email2"></use>
+                        </svg>
+                        <svg class="input-svg2">
+                          <use class="input-use" href="./images/bin.svg#bin1"></use>
+                          <use class="input-use" href="./images/bin.svg#bin2"></use>
+                        </svg>
+                      </div>
+                      <div class="input-div">
+                        <input class="input" placeholder="Password" type="password" />
+                        <svg class="input-svg">
+                          <use class="input-use" href="./images/frame.svg#frame1"></use>
+                        </svg>
+                        <svg class="input-svg4">
+                          <use class="input-use" href="./images/eye.svg#eye1"></use>
+                          <use class="input-use" href="./images/eye.svg#eye2"></use>
+                          <use class="input-use" href="./images/eye.svg#eye3"></use>
+                          <use class="input-use" href="./images/eye.svg#eye4"></use>
+                        </svg>
+                      </div>
+                    </form>
+                    <button class="sign-up">Sign Up</button>
+                    <p class="sign-up-p">Or Sign Up With</p>
+                    <button class="circle-btn">
+                      <svg class="circle-svg">
+                          <use class="circle-use" href="./images/facebook.svg#facebook1"></use>
+                        </svg>
+                      </button>
+                    <button class="circle-btn">
+                      <svg class="circle-svg2">
+                          <use class="input-use" href="./images/google.svg#google1"></use>
+                        </svg>
+                      </button>
+                  </div>
+                </div>
+                <script src="./js/modal.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
               </body>
             </html>
